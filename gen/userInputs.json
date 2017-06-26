@@ -1,0 +1,58 @@
+{
+  "project_name": "todo-app",
+  "homepage_title": "To Do App",
+  "description": "Welcome to my To Do App",
+  "tables": [
+    {
+      "name": "categories",
+      "columns": [
+        {
+          "name": "title",
+          "type": "VARCHAR(255)"
+        }
+      ]
+    },
+    {
+      "name": "animals",
+      "columns": [
+        {
+          "name": "title",
+          "type": "VARCHAR(255)",
+          "index_view_visible": "true",
+          "single_view_visible": "true"
+        },
+        {
+          "name": "description",
+          "type": "VARCHAR(1024)",
+          "index_view_visible": "true",
+          "single_view_visible": "true"
+        },
+        {
+          "name": "animal_type",
+          "type": "VARCHAR(1024)",
+          "index_view_visible": "true",
+          "single_view_visible": "true"
+        },
+        {
+          "name": "status",
+          "type": "INTEGER",
+          "index_view_visible": "true",
+          "single_view_visible": "true"
+        },
+        {
+          "name": "category_id",
+          "type": "INTEGER REFERENCES categories(id)",
+          "index_view_visible": "true",
+          "single_view_visible": "true"
+        },
+        {
+          "name": "genre_id",
+          "type": "INTEGER REFERENCES genres(id)",
+          "index_view_visible": "true",
+          "single_view_visible": "true"
+        }
+      ]
+    }
+  ]
+}
+

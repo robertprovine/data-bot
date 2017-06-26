@@ -1,0 +1,5 @@
+Generative Driven Development
+
+* Create the generator for the app you are trying to create before creating the app itself. Use the generator to spawn multiple instances of your app with varying seed inputs.
+
+* The app should only be complete if it has been generated from the seed (perhaps a json file)

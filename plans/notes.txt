@@ -1,0 +1,86 @@
+download zip file of CRUD app folder upon form completions
+
+information needed by user:
+  identification:
+    user-name
+    password
+  package.json:
+    app-name (for json file)
+    description
+    git-repository
+    author
+  migration.sql
+    tables
+    for each table, a list of column names and their types
+    when declaring types, have a way to declare reference types
+    seeds (post MVP)
+
+information needed by user idea 2:
+  database name
+  create new tables
+  for each table, a list of column names and their types
+  when declaring types, have a way to declare reference types
+
+db structure:
+  databases
+    name
+  tables
+    name, database(ref), 
+  column names
+  data entries
+
+characters
+
+possibly have default parameters in case the user does not fill out all of the inputs
+DATABASE DESIGN:
+
+tables:
+  users
+    user_name
+    password
+  projects
+    app_name
+    description
+    git-repository
+    author
+  routes
+    name_singular
+    name_plural
+    route_name ('quotes')
+  home_pages
+    message
+    document_title
+    sub_title
+    main_paragraph
+  tables
+  
+Main Page:
+  login/register
+Login:
+  username/email
+  password
+Registry:
+  username
+  password
+  password-confirm
+  create
+App List Page
+  search bar
+  create new button
+  list of apps:
+    name
+    last modified
+Single App Page
+  
+example:
+  students
+    first name
+    last name
+    email
+    
+    varchar(255)
+    
+create new:
+  
+
+

@@ -1,0 +1,122 @@
+body {
+  /*font-family: 'Ubuntu Mono', monospace;*/
+}
+
+table {
+  width: 50%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  /*border: 1px solid black;*/
+  text-align: left;
+  background-color: red;
+}
+
+td {
+  /*border: 1px solid black;*/
+  border-collapse: collapse;
+}
+
+.title {
+  padding: 20px;
+  font-size: 50px;
+}
+
+.sub-title {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.username {
+  display: block;
+  padding: 25px;
+  font-size: 20px;
+}
+
+.section-title {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.link {
+  display: block;
+  padding: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.entry {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.entry-title {
+  display: block;
+  padding: 5px 20px 5px 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.entry-title-2 {
+  display: block;
+  padding: 5px 20px 5px 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.entry-link {
+  display: block;
+  padding: 5px 20px 5px 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.info-entry {
+  padding: 20px;
+}
+
+.entry-data {
+  display: block;
+  font-size: 30px;
+  white-space: pre;
+  padding: 5px 20px 5px 20px;
+}
+
+.entry-data-2 {
+  display: block;
+  font-size: 20px;
+  white-space: pre;
+  padding: 5px 20px 5px 20px;
+}
+
+input.text-input {
+  display: block;
+  margin: 20px;
+  width: 200px;
+  height: 40px;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 17px;
+  padding-left: 10px;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+  font-size: 17px;
+  padding-left: 10px;
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+  font-size: 17px;
+  padding-left: 10px;
+}
+ 
+input:-ms-input-placeholder {  
+  font-size: 17px;
+  padding-left: 10px;
+}

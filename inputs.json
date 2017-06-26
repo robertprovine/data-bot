@@ -1,0 +1,74 @@
+{
+  "name": "animals",
+  "db_name": "animals_development",
+  "tables": [
+    {
+      "name": "animals",
+      "columns": [
+        {
+          "name": "scientific_name",
+          "type": "VARCHAR(255)"
+        },
+        {
+          "name": "genre_id",
+          "type": "INTEGER REFERENCES genres(id)"
+        }
+      ]
+    },
+    {
+      "name": "genres",
+      "columns": [
+        {
+          "name": "title",
+          "type": "VARCHAR(255)"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "name": "animals",
+      "add_form": [
+        {
+          "title": "Scientific Name",
+          "table_ref": "animals",
+          "column_ref": "scientific_name"
+        },
+        {
+          "title": "Genre",
+          "table_ref": "animals",
+          "column_ref": "genre_id"
+        }
+      ],
+      "edit_form": [
+        {
+          "title": "Scientific Name",
+          "table_ref": "animals",
+          "column_ref": "scientific_name"
+        },
+        {
+          "title": "Genre",
+          "table_ref": "animals",
+          "column_ref": "genre_id"
+        }
+      ]
+    },
+    {
+      "name": "genres",
+      "add_form": [
+        {
+          "title": "Genre",
+          "table_ref": "genres",
+          "column_ref": "title"
+        }
+      ],
+      "edit_form": [
+        {
+          "title": "Genre",
+          "table_ref": "genres",
+          "column_ref": "title"
+        }
+      ]
+    }
+  ]
+}
