@@ -1,5 +1,5 @@
 {
-  "name": "crud-apps",
+  "name": "data-bot",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.generalassemb.ly/robertprovine/CRUD-Apps.git"
+    "url": "https://github.com/robertprovine/data-bot.git"
   },
   "author": "Robert Provine",
   "license": "ISC",
